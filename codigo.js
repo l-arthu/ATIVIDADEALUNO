@@ -6,10 +6,10 @@ function Aluno(){
     media = (n1+n2+n3)/3
     
     if (media >= 6 ){
-    document.querySelector(".aluno").innerHTML="<br><p style= color:green >"+"O aluno "+nome+" ficou com média de "+media+", logo foi aprovado!"+"</p>"}
+    document.querySelector(".aluno").innerHTML="<br><p style= color:green >"+"O aluno "+nome+" ficou com média de "+media.toFixed(1)+", logo foi aprovado!"+"</p>"}
     
     else {
-   document.querySelector(".aluno").innerHTML="<br><p style= color:red >"+"O aluno "+nome+" ficou com média de "+media+", logo foi reprovado!"+"</p>"}
+   document.querySelector(".aluno").innerHTML="<br><p style= color:red >"+"O aluno "+nome+" ficou com média de "+media.toFixed(1)+", logo foi reprovado!"+"</p>"}
 
 }
 
